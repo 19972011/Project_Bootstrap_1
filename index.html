@@ -1,0 +1,1989 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digitek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="assets/css/stylesheet.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link href="assets/css/hover-min.css" rel="stylesheet" type="text/css">
+    <script src="assets/js/bootstrap.bundle.min.js"></script> <!-- accordion footer 480px -->
+    <link href="assets/css/style accordion (2).css" rel="stylesheet" type="text/css"> <!-- owl carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css"> <!-- start animated banner -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <style>
+        #slide_wrap {
+            width: 100%;
+            height: 29.5vw;
+            max-height: 550px;
+        }
+        @media screen and (max-width:1030px) { 
+            #slide_wrap {
+                height: 60vh;
+                max-height: none;
+            }
+            .content > h3 {
+                margin: 35px 5% -18px;
+                text-align: center;
+            }
+        }
+        
+    </style> <!-- animated banner end -->
+    <!-- timer -->
+    <link rel="stylesheet" href="assets/css/simplyCountdown.theme.default.css" /> <!-- end timer -->
+    <!-- owl carousel-->
+    <!--owl carousel javascript -->
+    <script src="assets/js/jquery.min (2).js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="top_bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 top_left col-md-12 col-12"> <span>Enjoy a safe, convenient shopping experience.</span> </div>
+                <div class="col-lg-6 top_right ">
+                    <div class="btn-group drp_dwn_1"> <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> English </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Francais</a></li>
+                            <li><a class="dropdown-item" href="#">Arabic</a></li>
+                        </ul>
+                    </div>
+                    <div class="btn-group drp_dwn_2"> <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> USD </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">EUR</a></li>
+                            <li><a class="dropdown-item" href="#">GBP</a></li>
+                        </ul>
+                    </div> <span><i class="bi bi-telephone phone"></i></span>
+                    <h6>+(585) 123 4567</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 first"> <a href="#"><img src="assets/img/logo.png" class="img-fluid"></a> </div>
+                <div class="col-lg-6 middle">
+                    <div class="btn-group drp_dwn_3"> <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"> All Categories </button>
+                        <ul class="dropdown-menu drp-menu">
+                            <li><a class="dropdown-item" href="#">Francais</a></li>
+                            <li><a class="dropdown-item" href="#">Arabic</a></li>
+                        </ul>
+                    </div>
+                    <form role="search"> <input class="form-control min" type="search" placeholder="Search for products, categories, brands, sku..." aria-label="Search"> </form> <span class="search-button"><i class="fa fa-search" aria-hidden="true"></i></span>
+                </div>
+                <div class="col-lg-3 third">
+                    <div class="user modified"> <span><i class="bi bi-person"></i></span>
+                        <h6 class="my-account">My Account</h6>
+                    </div>
+                    <div class="user"> <span><i class="bi bi-suit-heart"></i></span> <span class="wishlist-count">0</span>
+                        <h6 class="my-account wishlist-after">Wishlist</h6>
+                    </div>
+                    <div class="user modified_2"> <span><i class="bi bi-cart"></i></span> <span class="cart-count">0</span>
+                        <h6 class="my-account cart-after">Cart</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nav-container">
+        <nav class="sina-nav mobile-sidebar navbar-fixed" data-top="0">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-12">
+                        <nav class="mainNav sub_menu">
+                            <ul>
+                                <li class="shopping-accordion"><a href="#" class="shopping">Shopping By Categories<span class="ham-icon"><i class="fa fa-bars" aria-hidden="true"></i></span></a>
+                                    <ul>
+                                        <li class="accordion-drop"><a href="#"><span><i class="bi bi-fire fire_icon"></i></span>Hot Deals</a></li>
+                                        <li class="accordion-drop"><a href="#"><span><i class="fa fa-star-o" aria-hidden="true"></i></span>Special offer</a></li>
+                                        <li class="accordion-drop"><a href="#" class="electronic"><span class="mobile_icon"><i class="fa fa-mobile" aria-hidden="true"></i></span>Electronics</a></li>
+                                        <li class="accordion-drop"><a href="#"><span><i class="bi bi-controller controller_icon"></i></span>Cameras & Photos</a></li>
+                                        <li class="accordion-drop"><a href="#"><span><i class="bi bi-headphones headphone_icon"></i></span>Smartwatches & Fitness</a></li>
+                                        <li class="accordion-drop"><a href="#"><span><i class="fa fa-television" aria-hidden="true"></i></span>Computers & Laptop</a></li>
+                                        <li class="accordion-drop"><a href="#"><span><i class="bi bi-tablet tablet_icon"></i></span>Phones & Tablets</a></li>
+                                        <li class="accordion-drop"><a href="#"><span><i class="fa fa-television" aria-hidden="true"></i></span>Television & video</a></li>
+                                        <li class="accordion-drop"><a href="#"><span><i class="bi bi-tablet tablet_icon"></i></span>Video & Audio</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="sina-nav-header social-on disable"> <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i class="fa fa-bars"></i> </button> <a class="sina-brand" href="#"> <img src="assets/img/logo.png" class="img-fluid"> </a> </div>
+                        <div class="icon">
+                            <ul class="icon-ul">
+                                <li class="icon-li"><span><i class="bi bi-search icon-search"></i></span></li>
+                                <li class="icon-li"> <span><i class="bi bi-cart2 icon-cart"></i></span> <span class="cart-count"></span> </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-9">
+                        <div class="collapse navbar-collapse" id="navbar-menu">
+                            <ul class="sina-menu" data-in="fadeInLeft" data-out="fadeInOut">
+                                <li><a href="#home">Home</a></li>
+                                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Shop</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#">Custom Menu</a></li>
+                                        <li><a href="#">Custom Menu<p class="description">This is Description</p></a> </li>
+                                        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+                                            <ul class="dropdown-menu">
+                                                <li><a href="#">Custom Menu</a></li>
+                                                <li><a href="#">Custom Menu</a></li>
+                                                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown</a>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                        <li><a href="#">Custom Menu</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li><a href="#">Custom Menu</a></li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#about">Page</a></li>
+                                <li class="dropdown menu-item-has-mega-menu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Product</a>
+                                    <div class="mega-menu dropdown-menu mega_menu">
+                                        <ul class="mega-menu-row row-img" role="menu">
+                                            <li class="mega-menu-col col-md-4">
+                                                <h4 class="mega-menu-col-title">Menu Titlle</h4>
+                                                <ul class="sub-menu">
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="mega-menu-col col-md-4">
+                                                <h4 class="mega-menu-col-title">Menu Titlle</h4>
+                                                <ul class="sub-menu">
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="mega-menu-col col-md-4">
+                                                <h4 class="mega-menu-col-title">Menu Titlle</h4>
+                                                <ul class="sub-menu">
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="dropdown menu-item-has-mega-menu"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
+                                    <div class="mega-menu dropdown-menu">
+                                        <ul class="mega-menu-row" role="menu">
+                                            <li class="mega-menu-col col-md-6">
+                                                <h4 class="mega-menu-col-title">Menu Titlle</h4>
+                                                <ul class="sub-menu">
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="mega-menu-col col-md-6">
+                                                <h4 class="mega-menu-col-title">Menu Titlle</h4>
+                                                <ul class="sub-menu">
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                    <li><a href="#">Custom Menu</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="banner">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active banner-item"> <img src="assets/img/revslider_h1_11.png" class="d-block w-100 banner-img" alt="...">
+                    <div class="carousel-caption d-none d-md-block d-visible">
+                        <div class="slider_text">
+                            <h6 data-aos="fade-right" data-aos-duration="700">WEEKEND PROMOTIONS</h6>
+                            <h3 data-aos="fade-right" data-aos-duration="700" data-aos-delay="100">Cellphone Plans</h3> <span class="prime" data-aos="fade-left" data-aos-duration="700" data-aos-delay="300">for Prime</span>
+                            <p data-aos="fade-up" data-aos-duration="700"> Starting at <b class="bold">$49</b> per month from <br> <span class="disabled"> leading national wireless cariers. </span> </p> <a href="#" data-aos="fade-up" data-aos-delay="300" data-aos-duration="700">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item banner-item"> <img src="assets/img/revslider_h1_21.png" class="d-block w-100 banner-img" alt="...">
+                    <div class="carousel-caption d-none d-md-block d-visible">
+                        <div class="slider_text">
+                            <h6 data-aos="fade-right" data-aos-duration="700" data-aos-delay="700">SPECIAL OFEFR</h6>
+                            <h3 data-aos="fade-right" data-aos-duration="700" data-aos-delay="800">Work Hard</h3> <span class="prime" data-aos="fade-left" data-aos-duration="700" data-aos-delay="900">Play hard</span>
+                            <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="1000"> Get 50$ - 100$ off when buying online. </p> <a href="#" data-aos="fade-up" data-aos-delay="1100" data-aos-duration="700">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item banner-item"> <img src="assets/img/revslider_h1_31.png" class="d-block w-100 banner-img" alt="...">
+                    <div class="carousel-caption d-none d-md-block d-visible">
+                        <div class="slider_text">
+                            <h6 data-aos="fade-right" data-aos-duration="700" data-aos-delay="700">SPECIAL OFEFR</h6>
+                            <h3 data-aos="fade-right" data-aos-duration="700" data-aos-delay="800">Discount 50%</h3> <span class="prime" data-aos="fade-left" data-aos-duration="700" data-aos-delay="900">on all Electronics</span>
+                            <p data-aos="fade-up" data-aos-duration="700" data-aos-delay="1000"> Get 50$ - 100$ off when buying online. </p> <a href="#" data-aos="fade-up" data-aos-delay="1100" data-aos-duration="700">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-indicators banner-indicators"> <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button> <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button> <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button> </div>
+        </div>
+    </div>
+    <div class="four_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6  track pt-6">
+                    <div class="track_content"> <span> <i class="fa fa-truck truck-flip" aria-hidden="true"></i> </span>
+                        <h5>Free Delivery</h5>
+                        <h6>For all oders over $99</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6 track pt-6">
+                    <div class="track_content"> <span> <i class="fa fa-arrows-h" aria-hidden="true"></i> </span>
+                        <h5>90 Days Return</h5>
+                        <h6>If goods have problems</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6 track pt-6">
+                    <div class="track_content three"> <span class="credit-card"> <i class="fa fa-credit-card" aria-hidden="true"></i> </span>
+                        <h5>Secure Payment</h5>
+                        <h6>100% secure payment</h6>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-6  track pt-6">
+                    <div class="track_content three res_track"> <span class="life-ring"> <i class="fa fa-life-ring" aria-hidden="true"></i> </span>
+                        <h5>24/7 Support</h5>
+                        <h6>Dedicated support</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="three_content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 iphone_cont col-md-6 col-sm-6 col-12">
+                    <div class="iphone"> <img src="assets/img/bn3.webp" class="img-fluid iphone_img">
+                        <div class="iphone_text">
+                            <h3>iPhone 14 Pro <br> Max</h3>
+                            <h5>$599 <span>$899</span></h5> <a href="#" class="shop_now"> Shop Now <span class="right_arrow"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 iphone_cont col-md-6 col-sm-6 col-12 disabled_360">
+                    <div class="apple"> <img src="assets/img/bn2.webp" class="img-fluid iphone_img">
+                        <div class="apple_text">
+                            <h3>Apple Watch <br>Series 4</h3>
+                            <h5>$89 <span>$129</span></h5> <a href="#" class="shop_now"> Shop Now <span class="right_arrow"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 iphone_cont disabled">
+                    <div class="controller"> <img src="assets/img/bn1.webp" class="img-fluid iphone_img">
+                        <div class="controller_text">
+                            <h3>Xbox One 360 <br> Controller</h3>
+                            <h5>$29 <span>$49</span></h5> <a href="#" class="shop_now"> Shop Now <span class="right_arrow"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hot">
+        <div class="container">
+            <div class="hot_title">
+                <h2>Hot Deals! Products</h2>
+            </div>
+            <div class="row top_row">
+                <div class="col-lg-7 col-md-12">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-4  column col-6">
+                            <div class="product-grid">
+                                <div class="product-img"> <img src="assets/img/prod9-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod9-1-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label">36% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                                    <div class="timer">
+                                        <div class="simply-countdown simply-countdown-one"></div>
+                                    </div> <a href="#" class="add-to-cart"> Quick view</a>
+                                </div>
+                                <div class="product-details">
+                                    <div class="product-title">
+                                        <h6 class="title_1">Electronics, Phones & Tablets</h6>
+                                        <h3 class="title_2"><a href="#">Apple iPhone Case</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                    </div>
+                                    <div class="product-price"> $21.00 <del>$33.00</del> <span><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4  column col-6">
+                            <div class="product-grid">
+                                <div class="product-img"> <a href="#"> <img src="assets/img/prod14-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod13-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label">20% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                                    <div class="timer">
+                                        <div class="simply-countdown simply-countdown-one"></div>
+                                    </div> <a href="#" class="add-to-cart"> Quick view</a>
+                                </div>
+                                <div class="product-details">
+                                    <div class="product-title">
+                                        <h6 class="title_1">Home Applliance</h6>
+                                        <h3 class="title_2"><a href="#">Scanfrost 1.7 Liter Plastic Kettle</a></h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                    </div>
+                                    <div class="product-price"> $39.00 <del>$49.00</del> <span class="cart_2"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-4 column disabled_480">
+                            <div class="product-grid">
+                                <div class="product-img"> <a href="#"> <img src="assets/img/prod11-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod12-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                                    <div class="timer">
+                                        <div class="simply-countdown simply-countdown-one"></div>
+                                    </div> <a href="#" class="add-to-cart"> Quick view</a>
+                                </div>
+                                <div class="product-details">
+                                    <div class="product-title">
+                                        <h6 class="title_1">Electronics</h6>
+                                        <h3 class="title_2"><a href="#">Loudspeaker Home audio</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                    </div>
+                                    <div class="product-price"> $69.00 <del>$99.00</del> <span class="cart_3"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 disabled">
+                    <div class="row">
+                        <div class=" col-lg-6 column">
+                            <div class="product-grid grid">
+                                <div class="product-img back_img"> <a href="#"> <img src="assets/img/prod8-300x300.png" class="img-fluid pic-1 lap_spek" alt=""> <img src="assets/img/prod7-300x300.png" class="img-fluid pic-2 lap_spek" alt=""> </a> <span class="products-label">16% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                                    <div class="timer">
+                                        <div class="simply-countdown simply-countdown-one"></div>
+                                    </div> <a href="#" class="add-to-cart"> Quick view</a>
+                                </div>
+                                <div class="product-details">
+                                    <div class="product-title">
+                                        <h6 class="title_1">Computers & Laptop, Electronics</h6>
+                                        <h3 class="title_2"><a href="#">Apple Super Notecom</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                    </div>
+                                    <div class="product-price"> $213.30 <del>$253.50</del> <span><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="product-grid grid">
+                                <div class="product-img back_img"> <a href="#"> <img src="assets/img/prod6-300x300.png" class="img-fluid pic-1 lap_spek" alt=""> <img src="assets/img/prod3-300x300.png" class="img-fluid pic-2 lap_spek" alt=""> </a> <span class="products-label">20% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span>
+                                    <div class="timer">
+                                        <div class="simply-countdown simply-countdown-one"></div>
+                                    </div> <a href="#" class="add-to-cart"> Quick view</a>
+                                </div>
+                                <div class="product-details">
+                                    <div class="product-title">
+                                        <h6 class="title_1">Electronics,Video & Audio</h6>
+                                        <h3 class="title_2"><a href="#">Black JBL portable Bluetooth...</a></h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                    </div>
+                                    <div class="product-price"> $199.00 <del>$249.00</del> <span class="cart_5"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="all_phones mt-lg-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 disabled">
+                    <div class="bn_img"> <img src="assets/img/bn5-left.png" class="img-fluid bn_left" alt="">
+                        <div class="bn_text">
+                            <h6>Save Up To 20% Off</h6>
+                            <h4>All Phones</h4> <a href="#">Shop Now <span class="bn_right_arrow"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-12 col-sm-12 col-12">
+                    <div class="phone_title">
+                        <h2>Phone & Tablet</h2>
+                        <ul class="nav nav-pills mb-3 main_nav" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation"> <button class="nav-link nav_btn active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Best Selling</button> </li>
+                            <li class="nav-item" role="presentation"> <button class="nav-link nav_btn" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Featured</button> </li>
+                            <li class="nav-item" role="presentation"> <button class="nav-link nav_btn" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">On Sale</button> </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod11-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod12-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Loudspeaker Home audio</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $69.00 <del>$99.00</del> <span class="g_cart_1"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod17-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod10-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">54% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Video Games</h6>
+                                                    <h3 class="title_2"><a href="#">Support chargeur 2 Mane...</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $12.00 <del>$26.26</del> <span class="g_cart_2"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 disabled_480">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod14-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod13-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">20% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Home Appliance</h6>
+                                                    <h3 class="title_2"><a href="#">Scanfrost 1.7 Liter Plastic K..</a></h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $39.00 <del>$49.00</del> <span class="g_cart_3"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 disabled">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod5-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod9-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">21% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Phones & Tablets</h6>
+                                                    <h3 class="title_2"><a href="#">APLLE iPhone 11 – 128 GB</a></h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $69.00 - $999 <span class="g_cart_4"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row row_1">
+                                    <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod10-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod5-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">24% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Phones & Tablets</h6>
+                                                    <h3 class="title_2"><a href="#">Red Apple iPhone</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $136.26 <del>$145.90</del> <span class="g_cart_5"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod6-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod3-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">7% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Videos & Audio</h6>
+                                                    <h3 class="title_2"><a href="#">Black JBL portable Blueto..</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $199.00 <del>$249.00</del> <span class="g_cart_6"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 disabled_480">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod8-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod7-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Computers, Laptops & Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Apple Super Notecom</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $144.00 <del>$174.00</del> <span class="g_cart_7"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 disabled">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod4-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod5-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Watch Chonometer</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $199.00 <del>$269.00</del> <span class="g_cart_8"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4  col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod10-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod5-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">24% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Phones & Tablets</h6>
+                                                    <h3 class="title_2"><a href="#">Red Apple iPhone</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $136.26 <del>$145.90</del> <span class="g_cart_5"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod1-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod3-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">7% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Videos & Audio</h6>
+                                                    <h3 class="title_2"><a href="#">Asus Laptop Gaming</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $199.00 <del>$249.00</del> <span class="g_cart_6"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 disabled_480">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod8-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod7-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Computers, Laptops & Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Apple Super Notecom</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $144.00 <del>$174.00</del> <span class="g_cart_7"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 disabled">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod9-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod5-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Loudspeaker Home audio</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $199.00 <del>$269.00</del> <span class="g_cart_8"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row row_1">
+                                    <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod10-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod12-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Loudspeaker Home audio</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $69.00 <del>$99.00</del> <span class="g_cart_1"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod7-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod10-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">54% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Video Games</h6>
+                                                    <h3 class="title_2"><a href="#">Support chargeur 2 Mane...</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $12.00 <del>$26.26</del> <span class="g_cart_2"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 disabled_480">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod14-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod13-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">20% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Home Appliance</h6>
+                                                    <h3 class="title_2"><a href="#">Scanfrost 1.7 Liter Plastic K..</a></h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $39.00 <del>$49.00</del> <span class="g_cart_3"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 disabled">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod8-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod9-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">21% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Phones & Tablets</h6>
+                                                    <h3 class="title_2"><a href="#">APLLE iPhone 11 – 128 GB</a></h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $69.00 - $999 <span class="g_cart_4"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4  col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod11-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod12-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Loudspeaker Home audio</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $69.00 <del>$99.00</del> <span class="g_cart_1"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod17-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod10-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">54% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Video Games</h6>
+                                                    <h3 class="title_2"><a href="#">Support chargeur 2 Mane...</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $12.00 <del>$26.26</del> <span class="g_cart_2"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 disabled_480">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod14-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod13-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">20% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Home Appliance</h6>
+                                                    <h3 class="title_2"><a href="#">Scanfrost 1.7 Liter Plastic K..</a></h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $39.00 <del>$49.00</del> <span class="g_cart_3"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 disabled">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod5-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod9-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">21% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Phones & Tablets</h6>
+                                                    <h3 class="title_2"><a href="#">APLLE iPhone 11 – 128 GB</a></h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $69.00 - $999 <span class="g_cart_4"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row row_1">
+                                    <div class="col-lg-3 col-md-4  col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod10-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod5-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">24% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Phones & Tablets</h6>
+                                                    <h3 class="title_2"><a href="#">Red Apple iPhone</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $136.26 <del>$145.90</del> <span class="g_cart_5"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod6-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod3-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">7% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Videos & Audio</h6>
+                                                    <h3 class="title_2"><a href="#">Black JBL portable Blueto..</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $199.00 <del>$249.00</del> <span class="g_cart_6"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 disabled_480">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod8-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod7-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Computers, Laptops & Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Apple Super Notecom</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $144.00 <del>$174.00</del> <span class="g_cart_7"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 disabled">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod4-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod5-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Loudspeaker Home audio</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $199.00 <del>$269.00</del> <span class="g_cart_8"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="owl pt-lg-2">
+        <div class="container">
+            <div class="owl_video">
+                <section id="demos">
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <div class="item_section">
+                                        <div class="item_section_img"> <img src="assets/img/manettegaming.jpg" class="img-fluid"> </div>
+                                        <h5><a href="#">Video Games</a></h5>
+                                        <p>1 Product</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item_section">
+                                        <div class="item_section_img"> <img src="assets/img/hautparl.jpg" class="img-fluid"> </div>
+                                        <h5><a href="#">Video & Audio</a></h5>
+                                        <p>3 Product</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item_section">
+                                        <div class="item_section_img"> <img src="assets/img/smartw.jpg" class="img-fluid"> </div>
+                                        <h5><a href="#">Smart Watches <span class="disabled">& finance</span></a></h5>
+                                        <p>1 Product</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item_section">
+                                        <div class="item_section_img"> <img src="assets/img/smartphone260A.jpg" class="img-fluid"> </div>
+                                        <h5><a href="#">Phones <span class="disabled"> & Tablets</span></a></h5>
+                                        <p>4 Product</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item_section">
+                                        <div class="item_section_img"> <img src="assets/img/appliances.jpg" class="img-fluid"> </div>
+                                        <h5><a href="#">Home Appliance</a></h5>
+                                        <p>2 Product</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item_section">
+                                        <div class="item_section_img"> <img src="assets/img/imprimante-mobile.jpg" class="img-fluid"> </div>
+                                        <h5><a href="#">Elctronic</a></h5>
+                                        <p>10 Product</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item_section">
+                                        <div class="item_section_img"> <img src="assets/img/smartw.jpg" class="img-fluid"> </div>
+                                        <h5><a href="#">Smart Watches</a></h5>
+                                        <p>1 Product</p>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="item_section">
+                                        <div class="item_section_img"> <img src="assets/img/hautparl.jpg" class="img-fluid"> </div>
+                                        <h5><a href="#">Video & Audio</a></h5>
+                                        <p>3 Product</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <script>
+                                $(document).ready(function() {
+                                  $('.owl-carousel').owlCarousel({
+                                    loop: true,
+                                    margin: 10,
+                                    autoplay: true,
+                                    autoplayTimeout: 1000,
+                                    autoplayHoverPause: true,
+                                    responsiveClass: true,
+                                    responsive: {
+                                      0: {
+                                        items: 2,
+                                        nav: true,
+                                        margin: 25
+                                      },
+                                      360: {
+                                        items: 2,
+                                        nav: true,
+                                        margin: 25
+                                      },
+                                      600: {
+                                        items: 3,
+                                        nav: false,
+                                        margin: 25
+                                      },
+                                      768: {
+                                        items: 3,
+                                        nav: false,
+                                        margin: 20
+                                      },
+                                      1000: {
+                                        items: 5,
+                                        nav: true,
+                                        loop: true,
+                                        margin: 15
+                                      }
+                                    }
+                                  })
+                                })
+                            </script>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <div class="all_phones pt-lg-2 space">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 disabled">
+                    <div class="bn_img"> <img src="assets/img/bn4-left.png" class="img-fluid bn_left" alt="">
+                        <div class="bn_text">
+                            <h6>Save Up To 20% Off</h6>
+                            <h4>HP Laptops</h4> <a href="#">Shop Now <span class="bn_right_arrow"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-12 col-sm-12 col-12">
+                    <div class="phone_title">
+                        <h2 class="Laptop_line">Laptop & Desktop</h2>
+                        <ul class="nav nav-pills mb-3 main_nav main_nav_1" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation"> <button class="nav-link nav_btn active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home1" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Best Selling</button> </li>
+                            <li class="nav-item" role="presentation"> <button class="nav-link nav_btn" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile1" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Featured</button> </li>
+                            <li class="nav-item" role="presentation"> <button class="nav-link nav_btn" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact1" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">On Sale</button> </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home1" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod1-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod9-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">21% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Phones & Tablets</h6>
+                                                    <h3 class="title_2"><a href="#">Apple Note Pad</a></h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $69.00 - $999 <span class="g_cart_4"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod5-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod10-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">54% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Video Games</h6>
+                                                    <h3 class="title_2"><a href="#">Support chargeur 2 Mane...</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $12.00 <del>$26.26</del> <span class="g_cart_2"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 disabled_480">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod14-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod13-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">20% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Home Appliance</h6>
+                                                    <h3 class="title_2"><a href="#">Scanfrost 1.7 Liter Plastic K..</a></h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $39.00 <del>$49.00</del> <span class="g_cart_3"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 disabled">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod11-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod12-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Loudspeaker Home audio</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $69.00 <del>$99.00</del> <span class="g_cart_1"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row row_1">
+                                    <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod10-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod5-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">24% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Phones & Tablets</h6>
+                                                    <h3 class="title_2"><a href="#">Red Apple iPhone</a></h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $136.26 <del>$145.90</del> <span class="g_cart_5"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod4-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod5-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Watch Chonometer</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $199.00 <del>$269.00</del> <span class="g_cart_8"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 disabled_480">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod8-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod7-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Computers, Laptops & Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Apple Super Notecom</a></h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $144.00 <del>$174.00</del> <span class="g_cart_7"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 disabled">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod6-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod3-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">7% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Videos & Audio</h6>
+                                                    <h3 class="title_2"><a href="#">Black JBL portable Blueto..</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $199.00 <del>$249.00</del> <span class="g_cart_6"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile1" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4  col-sm-4  col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod10-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod5-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">24% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Phones & Tablets</h6>
+                                                    <h3 class="title_2"><a href="#">Red Apple iPhone</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $136.26 <del>$145.90</del> <span class="g_cart_5"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod1-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod3-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">7% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Videos & Audio</h6>
+                                                    <h3 class="title_2"><a href="#">Asus Laptop Gaming</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $199.00 <del>$249.00</del> <span class="g_cart_6"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 disabled_480">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod8-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod7-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Computers, Laptops & Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Apple Super Notecom</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $144.00 <del>$174.00</del> <span class="g_cart_7"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 disabled">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod9-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod5-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Loudspeaker Home audio</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $199.00 <del>$269.00</del> <span class="g_cart_8"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row row_1">
+                                    <div class="col-lg-3 col-md-4  col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod10-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod12-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Loudspeaker Home audio</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $69.00 <del>$99.00</del> <span class="g_cart_1"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod7-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod10-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">54% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Video Games</h6>
+                                                    <h3 class="title_2"><a href="#">Support chargeur 2 Mane...</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $12.00 <del>$26.26</del> <span class="g_cart_2"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 disabled_480">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod14-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod13-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">20% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Home Appliance</h6>
+                                                    <h3 class="title_2"><a href="#">Scanfrost 1.7 Liter Plastic K..</a></h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $39.00 <del>$49.00</del> <span class="g_cart_3"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 disabled">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod8-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod9-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">21% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Phones & Tablets</h6>
+                                                    <h3 class="title_2"><a href="#">APLLE iPhone 11 – 128 GB</a></h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $69.00 - $999 <span class="g_cart_4"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-contact1" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4  col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod11-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod12-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Loudspeaker Home audio</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $69.00 <del>$99.00</del> <span class="g_cart_1"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod17-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod10-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">54% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Video Games</h6>
+                                                    <h3 class="title_2"><a href="#">Support chargeur 2 Mane...</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $12.00 <del>$26.26</del> <span class="g_cart_2"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 disabled_480">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod14-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod13-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">20% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Home Appliance</h6>
+                                                    <h3 class="title_2"><a href="#">Scanfrost 1.7 Liter Plastic K..</a></h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $39.00 <del>$49.00</del> <span class="g_cart_3"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 disabled">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod5-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod9-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">21% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Phones & Tablets</h6>
+                                                    <h3 class="title_2"><a href="#">APLLE iPhone 11 – 128 GB</a></h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $69.00 - $999 <span class="g_cart_4"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row row_1">
+                                    <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod10-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod5-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">24% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Phones & Tablets</h6>
+                                                    <h3 class="title_2"><a href="#">Red Apple iPhone</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $136.26 <del>$145.90</del> <span class="g_cart_5"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod6-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod3-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">7% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Videos & Audio</h6>
+                                                    <h3 class="title_2"><a href="#">Black JBL portable Blueto..</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $199.00 <del>$249.00</del> <span class="g_cart_6"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 disabled_480">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod8-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod7-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Computers, Laptops & Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Apple Super Notecom</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $144.00 <del>$174.00</del> <span class="g_cart_7"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 disabled">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod4-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod5-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Loudspeaker Home audio</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $199.00 <del>$269.00</del> <span class="g_cart_8"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="all_phones pt-lg-4 pb-lg-5 space_1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 disabled">
+                    <div class="bn_img"> <img src="assets/img/bn6-left.png" class="img-fluid bn_left" alt="">
+                        <div class="bn_text">
+                            <h6>Save Up To 20% Off</h6>
+                            <h4>Speaker Audio</h4> <a href="#">Shop Now <span class="bn_right_arrow"><i class="fa fa-chevron-circle-right" aria-hidden="true"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-12 col-sm-12 col-12">
+                    <div class="phone_title">
+                        <h2 class="video_360">Video & Audio</h2>
+                        <ul class="nav nav-pills mb-3 main_nav" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation"> <button class="nav-link nav_btn active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home2" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Best Selling</button> </li>
+                            <li class="nav-item" role="presentation"> <button class="nav-link nav_btn" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile2" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Featured</button> </li>
+                            <li class="nav-item" role="presentation"> <button class="nav-link nav_btn" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact2" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">On Sale</button> </li>
+                        </ul>
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-home2" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod11-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod12-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Loudspeaker Home audio</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $69.00 <del>$99.00</del> <span class="g_cart_1"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod13-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod10-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">54% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Video Games</h6>
+                                                    <h3 class="title_2"><a href="#">Support chargeur 2 Mane...</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $12.00 <del>$26.26</del> <span class="g_cart_2"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 disabled_480">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod14-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod13-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">20% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Home Appliance</h6>
+                                                    <h3 class="title_2"><a href="#">Scanfrost 1.7 Liter Plastic K..</a></h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $39.00 <del>$49.00</del> <span class="g_cart_3"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 disabled">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod9-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod10-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">21% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Phones & Tablets</h6>
+                                                    <h3 class="title_2"><a href="#">APLLE iPhone 11 – 128 GB</a></h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $69.00 - $999 <span class="g_cart_4"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row row_1">
+                                    <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod10-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod5-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">24% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Phones & Tablets</h6>
+                                                    <h3 class="title_2"><a href="#">Red Apple iPhone</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $136.26 <del>$145.90</del> <span class="g_cart_5"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod9-1-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod3-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">7% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Videos & Audio</h6>
+                                                    <h3 class="title_2"><a href="#">Black JBL portable Blueto..</a></h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $199.00 <del>$249.00</del> <span class="g_cart_6"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 disabled_480">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod8-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod7-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Computers, Laptops & Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Apple Super Notecom</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $144.00 <del>$174.00</del> <span class="g_cart_7"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 disabled">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod6-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod5-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Watch Chonometer</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $199.00 <del>$269.00</del> <span class="g_cart_8"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-profile2" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4 col-sm-4 col-6 ">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod10-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod5-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">24% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Phones & Tablets</h6>
+                                                    <h3 class="title_2"><a href="#">Red Apple iPhone</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $136.26 <del>$145.90</del> <span class="g_cart_5"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod1-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod3-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">7% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Videos & Audio</h6>
+                                                    <h3 class="title_2"><a href="#">Asus Laptop Gaming</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $199.00 <del>$249.00</del> <span class="g_cart_6"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 disabled_480">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod8-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod7-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Computers, Laptops & Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Apple Super Notecom</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $144.00 <del>$174.00</del> <span class="g_cart_7"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 disabled">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod9-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod5-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Loudspeaker Home audio</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $199.00 <del>$269.00</del> <span class="g_cart_8"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row row_1">
+                                    <div class="col-lg-3 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod10-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod12-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Loudspeaker Home audio</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $69.00 <del>$99.00</del> <span class="g_cart_1"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod7-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod10-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">54% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Video Games</h6>
+                                                    <h3 class="title_2"><a href="#">Support chargeur 2 Mane...</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $12.00 <del>$26.26</del> <span class="g_cart_2"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 disabled_480">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod14-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod13-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">20% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Home Appliance</h6>
+                                                    <h3 class="title_2"><a href="#">Scanfrost 1.7 Liter Plastic K..</a></h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $39.00 <del>$49.00</del> <span class="g_cart_3"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 disabled">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod8-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod9-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">21% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Phones & Tablets</h6>
+                                                    <h3 class="title_2"><a href="#">APLLE iPhone 11 – 128 GB</a></h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $69.00 - $999 <span class="g_cart_4"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="pills-contact2" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                                <div class="row">
+                                    <div class="col-lg-3 col-md-4  col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod11-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod12-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Loudspeaker Home audio</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $69.00 <del>$99.00</del> <span class="g_cart_1"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod17-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod10-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">54% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Video Games</h6>
+                                                    <h3 class="title_2"><a href="#">Support chargeur 2 Mane...</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $12.00 <del>$26.26</del> <span class="g_cart_2"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 disabled_480">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod14-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod13-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">20% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Home Appliance</h6>
+                                                    <h3 class="title_2"><a href="#">Scanfrost 1.7 Liter Plastic K..</a></h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $39.00 <del>$49.00</del> <span class="g_cart_3"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 disabled">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod5-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod9-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">21% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Phones & Tablets</h6>
+                                                    <h3 class="title_2"><a href="#">APLLE iPhone 11 – 128 GB</a></h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $69.00 - $999 <span class="g_cart_4"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row row_1">
+                                    <div class="col-lg-3 col-md-4  col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod10-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod5-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">24% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Phones & Tablets</h6>
+                                                    <h3 class="title_2"><a href="#">Red Apple iPhone</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $136.26 <del>$145.90</del> <span class="g_cart_5"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 col-6">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod6-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod3-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">7% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics, Videos & Audio</h6>
+                                                    <h3 class="title_2"><a href="#">Black JBL portable Blueto..</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $199.00 <del>$249.00</del> <span class="g_cart_6"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 col-md-4 col-sm-4 disabled_480">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod8-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod7-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Computers, Laptops & Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Apple Super Notecom</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $144.00 <del>$174.00</del> <span class="g_cart_7"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 column_1 disabled">
+                                        <div class="product-grid">
+                                            <div class="product-img"> <a href="#"> <img src="assets/img/prod4-300x300.png" class="img-fluid pic-1" alt=""> <img src="assets/img/prod5-300x300.png" class="img-fluid pic-2" alt=""> </a> <span class="products-label_1">30% OFF</span> <span class=" wishlist"><i class="fa fa-heart-o" aria-hidden="true"></i></span> <a href="#" class="add-to-cart"> Quick view</a> </div>
+                                            <div class="product-details">
+                                                <div class="product-title">
+                                                    <h6 class="title_1">Electronics</h6>
+                                                    <h3 class="title_2"><a href="#">Loudspeaker Home audio</a></h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                                </div>
+                                                <div class="product-price"> $199.00 <del>$269.00</del> <span class="g_cart_8"><i class="bi bi-cart2 cart_icon"></i></span> </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="nokia mt-lg-5">
+        <div class="container">
+            <div class="nokia section">
+                <ul>
+                    <li class="first_li"> <a href="#"><img src="assets/img/win10.png" class="img-fluid"></a> </li>
+                    <li class="first_li disabled_480"> <a href="#"><img src="assets/img/samsung.png" class="img-fluid"></a> </li>
+                    <li class="first_li disabled"> <a href="#"><img src="assets/img/nokia.png" class="img-fluid"></a> </li>
+                    <li class="first_li disabled"> <a href="#"><img src="assets/img/huawei.png" class="img-fluid"></a> </li>
+                    <li class="first_li"> <a href="#"><img src="assets/img/hbomax.png" class="img-fluid"></a> </li>
+                </ul>
+                <ul class="second_ul">
+                    <li class="first_li"> <a href="#"><img src="assets/img/toshiba.png" class="img-fluid"></a> </li>
+                    <li class="first_li disabled"> <a href="#"><img src="assets/img/pinterest.png" class="img-fluid"></a> </li>
+                    <li class="first_li disabled"> <a href="#"><img src="assets/img/lenovo.png" class="img-fluid"></a> </li>
+                    <li class="first_li disabled_480"> <a href="#"><img src="assets/img/htc.png" class="img-fluid"></a> </li>
+                    <li class="first_li"> <a href="#"><img src="assets/img/bream.png" class="img-fluid"></a> </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                    <div class="part1_title">
+                        <h2>Featured Products</h2>
+                    </div>
+                    <div class="new-product-item">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5 col-sm-5 col-5">
+                                <div class="new-product-img">
+                                    <div class="new-product-img-slider"> <img src="assets/img/prod11-300x300.png" class="img-fluid"> <img src="assets/img/prod12-300x300.png" class="img-fluid"> <span class="products-label_1">30% OFF</span> </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-7  col-sm-7 col-7">
+                                <div class="new-product-details">
+                                    <div class="new-product-title">
+                                        <h6 class="title_1">Electronics</h6>
+                                        <h3 class="title_2"> <a href="#">Loudspeaker Home audio</a> </h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                    </div>
+                                    <div class="new-product-price"> $69.00 <del>$99.00</del> <span class="new_g_cart_1 disabled"> <i class="bi bi-cart2 cart_icon"></i> </span> <a href="#" class="new-add-to-cart hvr-sweep-to-right">Add to Cart </a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-product-item">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5 col-sm-5 col-5">
+                                <div class="new-product-img">
+                                    <div class="new-product-img-slider"> <img src="assets/img/prod9-300x300.png" class="img-fluid"> <img src="assets/img/prod9-2-300x300.png" class="img-fluid"> <span class="products-label_1">2% OFF</span> </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-7 col-sm-7 col-7">
+                                <div class="new-product-details">
+                                    <div class="new-product-title">
+                                        <h6 class="title_1">Electronics</h6>
+                                        <h3 class="title_2"> <a href="#">Loudspeaker Home audio</a> </h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> </span>
+                                    </div>
+                                    <div class="new-product-price"> $69.00 <del>$99.00</del> <span class="new_g_cart_1 disabled"> <i class="bi bi-cart2 cart_icon"></i> </span> <a href="#" class="new-add-to-cart hvr-sweep-to-right">Add to Cart </a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-product-item">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5 col-sm-5 col-5">
+                                <div class="new-product-img">
+                                    <div class="new-product-img-slider"> <img src="assets/img/prod10-300x300.png" class="img-fluid"> <img src="assets/img/prod9-1-300x300.png" class="img-fluid"> </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-7 col-sm-7 col-7">
+                                <div class="new-product-details">
+                                    <div class="new-product-title">
+                                        <h6 class="title_1">Electronics</h6>
+                                        <h3 class="title_2"> <a href="#">Loudspeaker Home audio</a> </h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> </span>
+                                    </div>
+                                    <div class="new-product-price"> $69.00 <del>$99.00</del> <span class="new_g_cart_1 disabled"> <i class="bi bi-cart2 cart_icon"></i> </span> <a href="#" class="new-add-to-cart hvr-sweep-to-right">Add to Cart </a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6 disabled_480">
+                    <div class="part2_title">
+                        <h2>Best Selling</h2>
+                    </div>
+                    <div class="new-product-item">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5 col-sm-5">
+                                <div class="new-product-img">
+                                    <div class="new-product-img-slider"> <img src="assets/img/prod9-2-300x300.png" class="img-fluid"> <img src="assets/img/prod10-300x300.png" class="img-fluid"> <span class="products-label_1">50% OFF</span> </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-7 col-sm-7">
+                                <div class="new-product-details">
+                                    <div class="new-product-title">
+                                        <h6 class="title_1">Electronics</h6>
+                                        <h3 class="title_2"> <a href="#">Loudspeaker Home audio</a> </h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                    </div>
+                                    <div class="new-product-price"> $69.00 <del>$99.00</del> <span class="new_g_cart_1 disabled"> <i class="bi bi-cart2 cart_icon"></i> </span> <a href="#" class="new-add-to-cart hvr-sweep-to-right">Add to Cart </a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-product-item">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5 col-sm-5">
+                                <div class="new-product-img">
+                                    <div class="new-product-img-slider"> <img src="assets/img/prod6-300x300.png" class="img-fluid"> <img src="assets/img/prod3-300x300.png" class="img-fluid"> <span class="products-label_1">86% OFF</span> </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-7 col-sm-7">
+                                <div class="new-product-details">
+                                    <div class="new-product-title">
+                                        <h6 class="title_1">Electronics</h6>
+                                        <h3 class="title_2"> <a href="#">Loudspeaker Home audio</a> </h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> </span>
+                                    </div>
+                                    <div class="new-product-price"> $69.00 <del>$99.00</del> <span class="new_g_cart_1 disabled"> <i class="bi bi-cart2 cart_icon"></i> </span> <a href="#" class="new-add-to-cart hvr-sweep-to-right">Add to Cart </a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-product-item">
+                        <div class="row">
+                            <div class="col-lg-5 col-md-5 col-sm-5">
+                                <div class="new-product-img">
+                                    <div class="new-product-img-slider"> <img src="assets/img/prod17-300x300.png" class="img-fluid"> <img src="assets/img/prod13-300x300.png" class="img-fluid"> <span class="products-label_1">5% OFF</span> </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-7 col-sm-7">
+                                <div class="new-product-details">
+                                    <div class="new-product-title">
+                                        <h6 class="title_1">Electronics</h6>
+                                        <h3 class="title_2"> <a href="#">Loudspeaker Home audio</a> </h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> </span>
+                                    </div>
+                                    <div class="new-product-price"> $69.00 <del>$99.00</del> <span class="new_g_cart_1 disabled"> <i class="bi bi-cart2 cart_icon"></i> </span> <a href="#" class="new-add-to-cart hvr-sweep-to-right">Add to Cart </a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 disabled">
+                    <div class="part3_title">
+                        <h2>Latest Products</h2>
+                    </div>
+                    <div class="new-product-item">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="new-product-img">
+                                    <div class="new-product-img-slider"> <img src="assets/img/prod13-300x300.png" class="img-fluid"> <img src="assets/img/prod14-300x300.png" class="img-fluid"> </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="new-product-details">
+                                    <div class="new-product-title">
+                                        <h6 class="title_1">Electronics</h6>
+                                        <h3 class="title_2"> <a href="#">Loudspeaker Home audio</a> </h3> <span class="title_icon text-start"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> </span>
+                                    </div>
+                                    <div class="new-product-price"> $69.00 <del>$99.00</del> <span class="new_g_cart_1"> <i class="bi bi-cart2 cart_icon"></i> </span> <a href="#" class="new-add-to-cart hvr-sweep-to-right">Add to Cart </a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-product-item">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="new-product-img">
+                                    <div class="new-product-img-slider"> <img src="assets/img/prod8-300x300.png" class="img-fluid"> <img src="assets/img/prod1-300x300.png" class="img-fluid"> <span class="products-label_1">25% OFF</span> </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="new-product-details">
+                                    <div class="new-product-title">
+                                        <h6 class="title_1">Electronics</h6>
+                                        <h3 class="title_2"> <a href="#">Loudspeaker Home audio</a> </h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> </span>
+                                    </div>
+                                    <div class="new-product-price"> $69.00 <del>$99.00</del> <span class="new_g_cart_1"> <i class="bi bi-cart2 cart_icon"></i> </span> <a href="#" class="new-add-to-cart hvr-sweep-to-right">Add to Cart </a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="new-product-item">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="new-product-img">
+                                    <div class="new-product-img-slider"> <img src="assets/img/prod9-1-300x300.png" class="img-fluid"> <img src="assets/img/prod9-2-300x300.png" class="img-fluid"> <span class="products-label_1">39% OFF</span> </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="new-product-details">
+                                    <div class="new-product-title">
+                                        <h6 class="title_1">Electronics</h6>
+                                        <h3 class="title_2"> <a href="#">Loudspeaker Home audio</a> </h3> <span class="title_icon rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star white_star" aria-hidden="true"></i> </span>
+                                    </div>
+                                    <div class="new-product-price"> $69.00 <del>$99.00</del> <span class="new_g_cart_1"> <i class="bi bi-cart2 cart_icon"></i> </span> <a href="#" class="new-add-to-cart hvr-sweep-to-right">Add to Cart </a> </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="blog mt-lg-4 mt-md-4 mt-sm-3">
+        <div class="container">
+            <div class="blog_title">
+                <h2>Our Latest Blog</h2>
+            </div>
+            <div class="blog_content">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4 col-sm-6">
+                        <div class="card blog-card">
+                            <div class="blog-img-scale"> <img src="assets/img/b4.jpg" class="card-img-top blog-img " alt="..."> </div>
+                            <div class="card-body blog-card-body">
+                                <h5 class="card-title blog-title">Top Headphones <span class="disabled"> Trends</span></h5>
+                                <h6 class="blog-calender"><span class="calender-icon"><i class="fa fa-calendar" aria-hidden="true"></i></span> March 31, 2022 <span></span><b class="colon"> : </b> <button type="button" class="btn blog-btn" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on top"> <i class="bi bi-share blog-share"></i> <span class="disabled"> Share </span></button></h6>
+                                <p class="card-text blog-text"> Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit… </p> <a href="#" class="blog-btn-1">Read More <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 disabled_360">
+                        <div class="card blog-card blog-card_480 ">
+                            <div class="blog-img-scale"> <img src="assets/img/b2-1024x666.jpg" class="card-img-top blog-img" alt="..."> </div>
+                            <div class="card-body blog-card-body">
+                                <h5 class="card-title blog-title">Top Headphones <span class="disabled"> Trends</span></h5>
+                                <h6 class="blog-calender"><span class="calender-icon"><i class="fa fa-calendar" aria-hidden="true"></i></span>March 31, 2022 <span></span><b class="colon"> : </b><button type="button" class="btn blog-btn" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on toptop"> <i class="bi bi-share blog-share"></i> <span class="disabled"> Share </span></button></h6>
+                                <p class="card-text blog-text"> Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit… </p> <a href="#" class="blog-btn-1">Read More <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 disabled_600">
+                        <div class="card blog-card">
+                            <div class="blog-img-scale"> <img src="assets/img/blog1 (1).jpg" class="card-img-top blog-img" alt="..."> </div>
+                            <div class="card-body blog-card-body">
+                                <h5 class="card-title blog-title">Top Headphones <span class="disabled"> Trends</span></h5>
+                                <h6 class="blog-calender"><span class="calender-icon"><i class="fa fa-calendar" aria-hidden="true"></i></span>March 31, 2022 <span></span><b class="colon"> : </b><button type="button" class="btn blog-btn" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on toptop"> <i class="bi bi-share blog-share"></i> <span class="disabled"> Share </span></button></h6>
+                                <p class="card-text blog-text"> Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit… </p> <a href="#" class="blog-btn-1">Read More <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 disabled">
+                        <div class="card blog-card">
+                            <div class="blog-img-scale"> <img src="assets/img/blog2 (1).jpg" class="card-img-top blog-img" alt="..."> </div>
+                            <div class="card-body blog-card-body">
+                                <h5 class="card-title blog-title">Top Headphones Trends</h5>
+                                <h6 class="blog-calender"><span class="calender-icon"><i class="fa fa-calendar" aria-hidden="true"></i></span>March 31, 2022 <span></span><b class="colon"> : </b><button type="button" class="btn blog-btn" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Tooltip on toptop"> <i class="bi bi-share blog-share"></i> Share</button></h6>
+                                <p class="card-text blog-text"> Lorem ipsum dosectetur adipisicing elit, sed do.Lorem ipsum dolor sit… </p> <a href="#" class="blog-btn-1">Read More <span><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="news">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <h4>Subscribe to Our Newsletter</h4>
+                    <h6>Subscribe to our mailing list to get the new updates!</h6>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <form class="news-form"> <input class="form-control news-search" type="text" placeholder="Your Email Address"> <button class="news-btn" type="submit">Sign up</button> </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer_content">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-12 first_footer"> <img src="assets/img/foter-logo-digitek.png" class="img-fluid footre-img">
+                        <p class="footer-para"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+                        <h6 class="address"> <span><i class="bi bi-house-door footer-door"></i></span> 62 Batavia , New York, US</h6> <a href="#" class="number"> <span><i class="bi bi-telephone footer-tele"></i></span>+585 123 4567</a> <a href="#" class="mail"><span><i class="bi bi-envelope footer-mail"></i></span> help@example.com </a>
+                        <h6 class="time"><span><i class="bi bi-clock footer-clock"></i></span> Mon - Fri / 8:00 AM - 8:00 PM</h6>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6 disabled_480">
+                        <ul class="info-main">
+                            <li class="info"> Information</li>
+                            <li> Products Returns</li>
+                            <li> Terms Condition</li>
+                            <li> Contact Us</li>
+                            <li> Support Center</li>
+                            <li> Privacy Policy</li>
+                            <li> Payment Methods</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 Collection col-sm-6 disabled_480">
+                        <ul class="info-main">
+                            <li class="info"> Our Collection</li>
+                            <li>Smartwatches & Fitness</li>
+                            <li> Cameras & Photos</li>
+                            <li>Laptop & Computers</li>
+                            <li>Phones & Tablets</li>
+                            <li>Television & Video</li>
+                            <li> Consumer Electronics</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2 col-md-6 Collection col-sm-6 disabled_480">
+                        <ul class="info-main">
+                            <li class="info">Quick Links</li>
+                            <li>Give €50. Get €50</li>
+                            <li>Recalled Items</li>
+                            <li> Order Tracking</li>
+                            <li>Gift Receipt</li>
+                            <li>How to Buy</li>
+                            <li>Affiliate Program</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-12 download-main col-sm-12 disabled_480">
+                        <h4 class="download">Download Our App</h4>
+                        <p class="footer-para-1">Download our application and enjoy a 20% discount for a full year</p> <a href="#"><img src="assets/img/app-1.png" class="img-fluid footre-img-1"></a>
+                        <h6 class="follow">Follow Us</h6>
+                        <ul class="footer-social">
+                            <li><a href="#" class="f-icon-1"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+                            <li><a href="#" class="f-icon-2"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="f-icon-3"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="f-icon-4"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="f-icon-5"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="f-icon-6"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="f-icon-7"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="accordion-menu accordion-480">
+                    <li>
+                        <div class="dropdownlink"> Information <i class="fa fa-angle-down" aria-hidden="true"></i> </div>
+                        <ul class="submenuItems">
+                            <li><a href="#">Products Returns</a></li>
+                            <li><a href="#">terms Condition</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Support Center</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Payment Methods</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="dropdownlink">Our Collection <i class="fa fa-angle-down" aria-hidden="true"></i> </div>
+                        <ul class="submenuItems">
+                            <li><a href="#">Our Collection</a></li>
+                            <li><a href="#">Smartwatches & Fitness</a></li>
+                            <li><a href="#">Laptop & Computers</a></li>
+                            <li><a href="#">Phones & Tablets</a></li>
+                            <li><a href="#">Television & Video</a></li>
+                            <li><a href="#">Consumer Electronics</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="dropdownlink">Quick Links <i class="fa fa-angle-down" aria-hidden="true"></i> </div>
+                        <ul class="submenuItems">
+                            <li><a href="#">Give €50. Get €50</a></li>
+                            <li><a href="#">Recalled Items</a></li>
+                            <li><a href="#">Order Tracking</a></li>
+                            <li><a href="#">Gift Receipt</a></li>
+                            <li><a href="#">How to Buy</a></li>
+                            <li><a href="#">Affiliate Program</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="dropdownlink">Download Our App <i class="fa fa-angle-down" aria-hidden="true"></i> </div>
+                        <ul class="submenuItems">
+                            <li><a href="#">Download our application and enjoy a 20% discount for a full year</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="dropdownlink">Follow Us <i class="fa fa-angle-down" aria-hidden="true"></i> </div>
+                        <ul class="submenuItems footer-social">
+                            <li><a href="#" class="f-icon-1"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+                            <li><a href="#" class="f-icon-2"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="f-icon-3"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="f-icon-4"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="f-icon-5"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="f-icon-6"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                            <li><a href="#" class="f-icon-7"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="last">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 text-center"> <img src="assets/img/payments-method.png" class="img-fluid payment-footer"> </div>
+                <div class="col-lg-12 col-md-12">
+                    <h6>DigiTek © 2024 by <a href="#"> Sayani Paul</a> All Rights Reserved.</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="up-arrow">
+        <div class="container"> <a href="#top"><img src="assets/img/up-arrow.png" class="img-fluid up-arrow-position"></a> </div>
+    </div> <!-- <script src="assets/js/bootstrap.min.js"></script> -->
+    <!-- For All Plug-in Activation & Others -->
+    <script type="text/javascript">
+        $(document).ready(function() {
+          // WOW animation initialize
+          new WOW().init();
+        });
+    </script> <!-- menu accordion -->
+    <script src="assets/js/navAccordion.min.js"></script> <!-- counter timer -->
+    <script src="assets/js/simplyCountdown.js"></script>
+    <script>
+        var d = new Date(),
+            countUpDate = new Date();
+        d.setDate(d.getDate() + 365);
+        // default example
+        simplyCountdown('.simply-countdown-one', {
+            year: d.getFullYear(),
+            month: d.getMonth() + 1,
+            day: d.getDate(),
+            enableUtc: true
+        });
+        // inline example
+        simplyCountdown('.simply-countdown-inline', {
+            year: d.getFullYear(),
+            month: d.getMonth() + 1,
+            day: d.getDate(),
+            inline: true
+        });
+        //jQuery example
+        $('#simply-countdown-losange').simplyCountdown({
+            year: d.getFullYear(),
+            month: d.getMonth() + 1,
+            day: d.getDate(),
+            enableUtc: false
+        });
+        // direct element injection & Count Up Example
+        var countUp = document.querySelector('.simply-countdown-countup');
+        simplyCountdown(countUp, {
+            year: countUpDate.getFullYear(),
+            month: countUpDate.getMonth() + 1,
+            day: countUpDate.getDate(),
+            hours: countUpDate.getHours(),
+            minutes: countUpDate.getMinutes(),
+            seconds: countUpDate.getSeconds(),
+            countUp: true
+        });
+    </script> <!-- end counter timer -->
+    <!-- animated banner start -->
+    <script>
+        const myCarouselElement = document.querySelector('#myCarousel')
+        
+        const carousel = new bootstrap.Carousel(myCarouselElement, {
+          interval: 2000,
+          touch: false
+        })
+    </script> <!-- animated banner end -->
+    <!-- owl vendors -->
+    <script src="assets/js/highlight.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script>
+        const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+          const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script> <!-- accordion 480px -->
+    <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script> <!-- accordion 480px end -->
+    <!-- sina nav & menu accordion -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/sina-nav.js"></script>
+    <script src="assets/js/bootstrap.min (2).js"></script>
+</body>
+
+</html> <!-- https://demo.templatemonster.com/demo/310864.html?_gl=1*1120e48*_ga*NTQ1NjkwNDYuMTY4MzIzMDEyMg..*_ga_FTPYEGT5LY*MTcwNDkwOTk0OC4xMDkuMS4xNzA0OTEyNTk4LjU5LjAuMA.. -->
